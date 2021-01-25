@@ -17,7 +17,12 @@ h3 {
 p {
   font-family: 'Montserrat', sans-serif;
 }
-
+hr {
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
 /***************************CLASS SELECTORS***************************/
 .pro {
   text-decoration: underline;
@@ -29,8 +34,6 @@ p {
 }
 .middle-container {
   background-color: #d4e2d4;
-  height: 200px;
-  width: 200px;
 }
 .bottom-container {
   background-color: #ecb390;
@@ -48,7 +51,21 @@ p {
   bottom: 300px;
 }
 .mountain {
+  position: relative;
+  top: 5px;
+}
+.profile {
+  text-align: center;
+  position: relative;
+}
+.profile-image {
+  height: 275px;
+  width: 275px;
+  margin-top: 10px;
+}
+.skills-image {
+  height: 250;
+  width: 250px;
 
 }
-
 /***************************ID SELECTORS***************************/
