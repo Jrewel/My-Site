@@ -33,26 +33,31 @@ hr {
   padding-top: 100px;
 }
 .middle-container {
-  background-color: #d4e2d4;
+  background-color: #fcf8e8;
 }
 .bottom-container {
-  background-color: #ecb390;
-  height: 200px;
-  width: 200px;
+  background-color: #d4e2d4;
+  height: 100px;
+}
+.footer-link {
+  position: relative;
+  top: 20px;
 }
 .top-cloud {
   position: absolute;
-  right: 200px;
+  right: 175px;
   top: 50px;
 }
 .bottom-cloud {
   position: absolute;
   left: 200px;
-  bottom: 300px;
+  bottom: 200px;
 }
 .mountain {
   position: relative;
   top: 5px;
+  height: 200px;
+  width: 200px;
 }
 .profile {
   text-align: center;
@@ -68,4 +73,5 @@ hr {
   width: 250px;
 
 }
+
 /***************************ID SELECTORS***************************/
