@@ -16,6 +16,7 @@ h3 {
 }
 p {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 hr {
   border-style: dotted none none none;
@@ -23,6 +24,7 @@ hr {
   border-width: 5px;
   width: 5%;
 }
+
 /***************************CLASS SELECTORS***************************/
 .pro {
   text-decoration: underline;
@@ -51,7 +53,7 @@ hr {
 .bottom-cloud {
   position: absolute;
   left: 200px;
-  bottom: 200px;
+  bottom: 180px;
 }
 .mountain {
   position: relative;
@@ -72,6 +74,12 @@ hr {
   height: 250;
   width: 250px;
 
+}
+.skills-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /***************************ID SELECTORS***************************/
