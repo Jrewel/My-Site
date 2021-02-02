@@ -5,16 +5,18 @@ text-align: center;
 font-family:'IBM Plex Sans', sans-serif;
 }
 h1 {
+
   font-size: 60px;
   margin: 50px auto 0 auto;
   font-family:'IBM Plex Sans', sans-serif;
 }
 h2 {
+    color: #66BFBF;
     font-family:'IBM Plex Sans', sans-serif;
     font-size: 26px;
 }
 h3 {
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family:'Montserrat', sans-serif;
 }
 p {
   font-size: 20px;
@@ -28,10 +30,24 @@ hr {
   border-width: 5px;
   width: 5%;
 }
+table {
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #66BFBF;
+}
 
 /***************************CLASS SELECTORS***************************/
 .pro {
   text-decoration: underline;
+  font-weight: normal;
 }
 .top-container {
   background-color: #fcf8e8;
@@ -61,13 +77,15 @@ hr {
 }
 .mountain {
   position: relative;
-  top: 5px;
+  top: 70px;
   height: 200px;
   width: 200px;
 }
 .profile {
   text-align: center;
   position: relative;
+  padding-top: 75px;
+  padding-bottom: 50px;
 }
 .profile-image {
   height: 275px;
@@ -77,6 +95,7 @@ hr {
 .skills-image {
   height: 250;
   width: 250px;
+  padding-top: 20px;
 
 }
 .skills-container {
@@ -84,6 +103,40 @@ hr {
   align-items: center;
   justify-content: center;
 }
+.skills {
+  width: 50%;
+  margin: 75px auto 75px auto;
+}
+.contact-me {
+  margin: 75px auto 50px auto;
+}
+.contact-button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Georgia;
+   font-size: 24px;
+   font-weight: 275;
+   padding: 15px;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
 
-
+.contact-button:hover {
+   background: #d4e2d4;
+   border: solid #66BFBF 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.copyright {
+  color: white;
+  font-size: 1rem;
+  padding: 30px 0 10px 0;
+}
 /***************************ID SELECTORS***************************/
