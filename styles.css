@@ -45,10 +45,7 @@ a:hover {
 }
 
 /***************************CLASS SELECTORS***************************/
-.pro {
-  text-decoration: underline;
-  font-weight: normal;
-}
+
 .top-container {
   background-color: #fcf8e8;
   position: relative;
